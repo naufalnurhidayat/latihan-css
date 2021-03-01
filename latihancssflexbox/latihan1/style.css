@@ -1,0 +1,29 @@
+.container {
+    width: 500px;
+    height: 400px;
+    margin: 30px auto;
+    border: 5px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    /* justify-content: center; */
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: wrap; */
+    align-items: stretch;
+}
+
+.container div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(110, 190, 255);
+    margin-left: 2px;
+}
+
+
+
+/* protperty yang ada di items */
+/* 
+    1. order
+    2. align-self
+    3. flex-grow
+*/
